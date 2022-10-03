@@ -1,0 +1,5 @@
+const commonSampleFilePath =
+  "http://localhost:3000/images/sample";
+
+const configSampleFiles = {"employees":"http://api.foretest.dosystemsinc.com/images/sample_employee_bulk_upload_file.csv","Activitiess":"http://api.foretest.dosystemsinc.com/images/sample_Activities_bulk_upload_file.csv","Email Templatess":"http://api.foretest.dosystemsinc.com/images/sample_Email Templates_bulk_upload_file.csv","Roless":"http://api.foretest.dosystemsinc.com/images/sample_Roles_bulk_upload_file.csv","Upload Historys":"http://api.foretest.dosystemsinc.com/images/sample_Upload History_bulk_upload_file.csv","Email Statuss":"http://api.foretest.dosystemsinc.com/images/sample_Email Status_bulk_upload_file.csv","companys":"http://api.foretest.dosystemsinc.com/images/sample_company_bulk_upload_file.csv","users":"http://api.foretest.dosystemsinc.com/images/sample_user_bulk_upload_file.csv"};
+export default configSampleFiles;

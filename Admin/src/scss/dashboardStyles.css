@@ -1,0 +1,149 @@
+.sidemenuTopSpace{
+    margin-top: 2px
+}
+/* .card-scroll{
+    overflow-y: auto;
+
+} */
+.navContainer{
+    position: relative; 
+     height: calc(100vh - 52px);
+    overflow: hidden;
+    transition: all .15s;
+ }
+ .dashboardheading{
+    padding: 15px 10px 0 10px;
+ }
+
+ 
+.tableCardBody{
+    /* float:left; */
+    /* overflow-y: auto; */
+    /* max-height: 560px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+ } 
+ 
+ .serachAlignment{
+    text-align: right;
+    display:flex
+}
+ @media screen and (max-width: 1000px) {
+    .serachAlignment{
+        text-align: left
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .serachAlignment{
+      justify-content: flex-end;
+        /* margin-right: 10px */
+    }
+  }
+ .statusText{
+    color: white; 
+    text-align: center;
+     padding: 3px; 
+     border-radius: 5px; 
+     font-size: 11px
+ }
+
+ .cardHeader{
+     font-weight: bold;
+     padding: 5px 10px;
+     padding-top: 15px;
+     background-color: white !important
+ }
+
+ .cardBodyText{
+     color: white;
+     font-weight: bold;
+     padding: 15px
+ }
+
+ .dashboardIcon{
+     font-size: 30px
+ }
+
+ .rowSpace{
+     padding:10px 30px
+ }
+
+ .cardShadow{
+    box-shadow: 5px 5px 15px #f4f7f8;
+ }
+
+ .dashBoardRowSpace{
+     margin-right: 15px
+ }
+ .dashboardCardScroll{
+     overflow-y: auto;
+     max-height: 600px;
+     margin-right: 0px
+ }
+ .user-img{
+    border-radius: 30px;
+ }
+ 
+ .dropdownAlign{
+     text-align: right
+ }
+ .userNameClick {
+    cursor: pointer;
+}
+.dropdownMenuStyle{
+    margin-top:16px;
+    margin-right:8px;  
+    padding:0px 0px 9px 0px
+}
+
+.dropdownDivider{
+    margin-top: 0px
+}
+.dropdownHeader{
+    /* background-color: black; */
+    color:white;
+    text-align: center;
+    background-color: black
+}
+
+img{
+    width: 65px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.dropdownTextOnHover:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.userNameStyle{
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 14.5px
+}
+/* for extra small device and small */
+@media (max-width: 767px)  {
+    .cardSmSpace{
+        margin: 10px
+    }
+}
+/* for extra medium device */
+@media (max-width: 991px)  {
+    .cardMdSpace{
+        margin-top: 10px
+    }
+}
+.logoutOnHover:hover{
+    text-decoration: none;
+  }
+  /* for extra medium device */
+@media (max-width: 991px)  {
+    .userNameDisplay{
+        display: none
+    }
+}

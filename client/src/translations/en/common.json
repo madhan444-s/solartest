@@ -1,0 +1,742 @@
+{
+    "dashboard": {
+        "page_title": "Dashboard",
+        "projects": "Projects",
+        "tasks": "Tasks",
+        "leave_balance": "Leave Balance",
+        "employees": "Employees",
+        "notification": "Notification",
+        "active_projects": "Active Projects",
+        "recent_leaves": "Recent Leaves",
+        "visits": "Visits",
+        "total_page_views": "Total page views",
+        "new_users": "New users",
+        "bounce_rate": "Bounce rate",
+        "ab_testing": "A/B testing analytics",
+        "visitors_sessions": "Visitor sessions",
+        "sales_statistic": "Sales statistic",
+        "budget_statistic": "Budget statistic",
+        "audience_by_country": "Audience by country",
+        "best_selling": "Best selling regions",
+        "goals_completion": "Goal completion",
+        "presentations_title": "Up-Coming Presentations On : ",
+        "birthDay": "Happy Birth Day!",
+        "appraisalInitiated": "Appraisals Initiated. Please submit before",
+        "project": "Project",
+        "issues": "Issues",
+        "teamLead": "Team Lead",
+        "employee": "Employee",
+        "fromDate": "From Date",
+        "noOfDays": "No Of Days",
+        "noRecentLeaves": "No Recent Leaves",
+        "timeSheet_report": "Time Sheet Report",
+        "tr_name": "Name",
+        "tr_updated": "Last Updated On",
+        "tr_email": "Email",
+        "noTimesheetUpdates": "No Recent Updates"
+    },
+    "forms": {
+        "title": "Forms",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "update": "Update",
+        "save&close": "Save & Close",
+        "nav_tabs": {
+            "all": "All",
+            "comments": "Comments",
+            "attachments": "Attachments",
+            "history": "History"
+        },
+        "bulk_upload": "Bulk Upload",
+        "sample_document": "Sample Document",
+        "download": "Download",
+        "attach_file": "Please Attach File",
+        "close": "Close",
+        "upload": "Upload",
+        "ask_confirmation": "Are you sure want to",
+        "yes": "Yes",
+        "no": "No",
+        "delete": "Delete",
+        "create": "Create",
+        "comments": "Comments",
+        "update_leaveBal": "Update Leave Balance",
+        "reason": "Reason",
+        "no_of_days": "No Of Days",
+        "edit": "Edit",
+        "add": "Add",
+        "rolesModal_title": "Roles",
+        "error_messages": {
+            "empty_basic": "Filed Is Required"
+        },
+        "pagePermissions_edit": "Edit",
+        "pagePermissions_view": "View",
+        "pagePermissions_noView": "NoView",
+        "details_title": "Details"
+    },
+    "dataTable": {
+        "total_records": "TOTAL REORDS : ",
+        "color_legend": {
+            "h_w": "Holiday / Weekend",
+            "wh": "Working Hours"
+        },
+        "title_bar": {
+            "daily_view": "Daily View",
+            "detailed_view": "Detailed View",
+            "export_csv": "Export To CSV",
+            "bulk_upload": "Bulk Upload",
+            "add": "Add",
+            "delete": "Delete",
+            "ph_status": "Status"
+        },
+        "table_head": {
+            "leave_bal": "Leave Balance",
+            "search": "Search",
+            "ph_globalSearch": "Search"
+        }
+    },
+    "tableFields": {
+        "ph_search": "Search",
+        "ph_all": "All",
+        "ph_none": "Null"
+    },
+    "topbar_link": {
+        "profile": "Profile",
+        "password": "Change Password",
+        "logout": "Log Out"
+    },
+    "profile": {
+        "title": "Profile",
+        "first_name": "First Name",
+        "email": "Email",
+        "client_id": "Client Id",
+        "address": "Address",
+        "last_name": "Last Name",
+        "phone_number": "Phone Number",
+        "skype_id": "Skype Id",
+        "profile_pic": "Profile Pic",
+        "emp_id": "Employee Id",
+        "role": "Role",
+        "dob": "Date Of Birth",
+        "gender": "Gender",
+        "bank_ac_no": "Bank Accounnt No",
+        "ifsc": "IFSC Code",
+        "doj": "Date of Joining",
+        "company_email": "Company Email",
+        "bit_id": "BitBucket Id",
+        "laptop_sno": "Laptop S.No",
+        "pan": "PAN",
+        "aadhar": "Aadhar No",
+        "reporting_to": "Reporting To",
+        "btn_submit": "Submit",
+        "btn_upload": "Upload Photo",
+        "btn_cancel": "Cancel"
+    },
+    "change_pw": {
+        "title": "Change Password",
+        "current_pw": "Current Password",
+        "new_pw": "New Password",
+        "conf_pw": "Confirm Password",
+        "submit": "Submit",
+        "reset": "Reset",
+        "back": "Back",
+        "newpw_error": "New Password is Required",
+        "curpw_error": "Current Password is Required",
+        "reEnter_error": "Please Re-enter new password"
+    },
+    "forgot_pw": {
+        "email": "Email",
+        "error_req": "Email is required",
+        "error_valid": "Please enter a correct email address",
+        "submit": "Submit",
+        "revert": "Back to Login?"
+    },
+    "activities": {
+        "table": {
+            "globalsearch": "Search: Context/Context Type"
+        },
+        "table_fields": {
+            "s_no": "S.No.",
+            "context": "Context",
+            "description": "Description",
+            "context_type": "Context Type",
+            "created_by": "Created By",
+            "created": "Created",
+            "ph_search": "Search"
+        }
+    },
+    "attendance": {
+        "table": {
+            "globalsearch": "Search: Name"
+        },
+        "form_fields": {
+            "emp_name": "Employee Name",
+            "date": "Date",
+            "in_time": "In Time",
+            "out_time": "Out Time",
+            "comments": "Comments"
+        },
+        "table_fields": {
+            "s_no": "S.No.",
+            "name": "Employee Name",
+            "created": "Created",
+            "ph_search": "Search",
+            "work_type": "Work Type",
+            "date": "Date",
+            "in_time": "In Time",
+            "out_time": "Out Time",
+            "no_of_checkouts": "No of Checkouts",
+            "working_hours": "Working Hours",
+            "timesheet_hours": "Timesheet Hours",
+            "actions": "Actions"
+        }
+    },
+    "clients": {
+        "table": {
+            "globalsearch": "Search: Name"
+        },
+        "form_fields": {
+            "firstname": "First Name",
+            "lastname": "Last Name",
+            "email": "Email",
+            "clientId": "Client Id",
+            "phone": "Phone Number",
+            "skypeId": "Skype Id",
+            "address": "Address"
+        },
+        "table_fields": {
+            "name": "Name",
+            "email": "Email",
+            "clientId": "Client Id",
+            "phone": "Phone Number",
+            "status": "Status",
+            "actions": "Actions",
+            "ph_search": "Search"
+        }
+    },
+    "employees": {
+        "table": {
+            "globalsearch": "Search: Name/Email/Phone"
+        },
+        "form_fields": {
+            "firstname": "First Name",
+            "lastname": "Last Name",
+            "dob": "Date Of Birth",
+            "join_date": "Date Of Join",
+            "email": "Email",
+            "company_mail": "Company Email",
+            "pan": "PAN",
+            "aadhar": "Aadhar No",
+            "emp_id": "Employee Id",
+            "phone": "Phone Number",
+            "skype_id": "Skype Id",
+            "bit_id": "BitBucket Id",
+            "laptop_sno": "Laptop S.No",
+            "role": "Role",
+            "address": "Address",
+            "status": "Status",
+            "reporting_to": "Reporting To",
+            "bank_ac_no": "Bank Accounnt No",
+            "ifsc": "IFSC Code",
+            "leave_bal": "Leave Balance",
+            "gender": "Gender",
+            "cheque_rec": "Cheque Recieved ?",
+            "icard_rec": "Id Card Recieved ?",
+            "assigned_inventories": "Assigned Inventories",
+            "employmentType": "Employement Type"
+        },
+        "table_fields": {
+            "name": "Employee Name",
+            "emp_id": "Employee Id",
+            "phone": "Phone Number",
+            "email": "Email",
+            "appraisal_status": "Appraisal Status",
+            "total_leaves": "Total leaves",
+            "role": "Role",
+            "reporting_to": "Reporting To",
+            "status": "Status",
+            "actions": "Actions",
+            "ph_search": "Search",
+            "employmentType": "Employement Type"
+        }
+    },
+    "inventory": {
+        "table": {
+            "globalsearch": "Search: Name"
+        },
+        "form_fields": {
+            "name": "Name",
+            "count": "Count",
+            "assigned_to": "Assigned To",
+            "purchase_date": "Purchase Date",
+            "status": "Status",
+            "type": "Type",
+            "desc": "Description",
+            "comments": "Comments",
+            "ph_assigned_to": "Search Employees"
+        },
+        "table_fields": {
+            "ph_search": "Search",
+            "s_no": "S.No.",
+            "name": "Name",
+            "count": "Count",
+            "assigned_to": "Assigned To",
+            "status": "Status",
+            "created": "Created",
+            "actions": "Actions",
+            "updated": "Updated"
+        }
+    },
+    "inv_details": {
+        "title": "Inventory Details",
+        "labels": {
+            "count": "Count",
+            "name": "Name",
+            "status": "Status",
+            "purchase_date": "Purchase Date",
+            "created_by": "Created By"
+        },
+        "desc": "Description",
+        "nav_tabs": {
+            "history": "History",
+            "comments": "Comments",
+            "attachments": "Attachments"
+        }
+    },
+    "inv_history": {
+        "form_fields": {
+            "assigned_to": "Assigned To",
+            "name": "Name",
+            "count": "Count",
+            "desc": "Description",
+            "purchase_date": "Purchase Date"
+        },
+        "table_fields": {
+            "ph_search": "Search",
+            "s_no": "S.No.",
+            "name": "Name",
+            "desc": "Description",
+            "count": "Count",
+            "assigned_to": "Assigned To",
+            "status": "Status",
+            "from": "From",
+            "to": "To",
+            "updated": "Updated"
+        },
+        "globalsearch": "Search: Name"
+    },
+    "issues": {
+        "table": {
+            "globalsearch": "Search: Project"
+        },
+        "form_fields": {
+            "project": "Project",
+            "task": "Task",
+            "screen": "Screen Name",
+            "assigned_to": "Assigned To",
+            "status": "Status",
+            "priority": "Priority",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "desc": "Description",
+            "est_hrs": "Estimated Hours",
+            "comments": "Comments",
+            "ph_assigned_to": "Search Employees",
+            "ph_tasks": "Search Tasks",
+            "ph_projects": "Search Projects",
+            "is_client_added": "Is Client Added"
+        },
+        "table_fields": {
+            "ph_search": "Search",
+            "issue_id": "Issue Id",
+            "project": "Project",
+            "task": "Task",
+            "screen": "Screen",
+            "desc": "Description",
+            "assigned_to": "Assigned To",
+            "priority": "Priority",
+            "status": "Status",
+            "created_by": "Created By",
+            "created_date": "Created Date",
+            "updated_date": "Updated On",
+            "actions": "Actions"
+        }
+    },
+    "issue_details": {
+        "title": "Issue Details",
+        "issue_id": "Issue Id",
+        "assigned_to": "Assigned To",
+        "form_fields": {
+            "project": "Project",
+            "ph_project": "Search Project",
+            "task": "Task",
+            "ph_task": "Search Task",
+            "screen": "Screen Name",
+            "ph_screen": "Screen Name",
+            "assigned_to": "Assigned To",
+            "ph_assigned_to": "Search Employees",
+            "status": "Status",
+            "priority": "Priority",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "desc": "Description",
+            "ph_desc": "Description",
+            "est_hrs": "Estimated Hours",
+            "ph_est_hrs": "Estimated Hours",
+            "comments": "Comments",
+            "is_client_added": "Is Client Added"
+        },
+        "buttons": {
+            "prev": "Previous",
+            "next": "Next",
+            "back": "Back",
+            "update": "Update",
+            "choose_file": "Choose File"
+        },
+        "nav_tabs": {
+            "comments": "Comments",
+            "attachments": "Attachments"
+        }
+    },
+    "kpi": {
+        "title": "KPI",
+        "full_title": "Key Performance Index",
+        "category": "Category",
+        "add": "Add",
+        "traits": "Traits",
+        "edit": "Edit",
+        "subcategory": "SubCategory",
+        "delete": "delete"
+    },
+    "kpi_edit_modal": {
+        "update": "Update",
+        "cancel": "Cancel",
+        "delete": "delete",
+        "add": "Add",
+        "delete_conf": "Are you sure, you want to delete ?"
+    },
+    "leaves": {
+        "table": {
+            "globalsearch": "Search: Employee/LeaveType"
+        },
+        "form_fields": {
+            "name": "Name",
+            "leave_type": "Leave Type",
+            "leave_day": "Leave Day",
+            "from_date": "From Date",
+            "to_date": "To Date",
+            "reason": "Reason",
+            "ph_name": "Employee Name"
+        },
+        "table_fields": {
+            "ph_search": "Search",
+            "s_no": "S.No.",
+            "employee": "Employee",
+            "leave_type": "Leave Type",
+            "reason": "Reason",
+            "no_of_days": "No Of Days",
+            "applied_date": "Applied Date",
+            "from_date": "From Date",
+            "to_date": "To Date",
+            "status": "Status",
+            "actions": "Actions"
+        }
+    },
+    "leave_his": {
+        "globalsearch": "Search : Name",
+        "table_fields": {
+            "ph_search": "Search",
+            "s_no": "S.No.",
+            "name": "Name",
+            "date": "Date",
+            "from_date": "From Date",
+            "to_date": "To Date",
+            "type": "Type",
+            "no_of_days": "No Of Days",
+            "after_leaves": "After Leaves"
+        }
+    },
+    "presentations": {
+        "table": {
+            "globalsearch": "Search: Topic Name/Assigned To"
+        },
+        "form_fields": {
+            "topic_name": "Topic Name",
+            "assigned_to": "Assigned To",
+            "ph_assigned_to": "Search Employees",
+            "presentation_date": "Presentation Date"
+        },
+        "table_fields": {
+            "s_no": "S.No.",
+            "topic_name": "Topic Name",
+            "assigned_to": "Assigned To",
+            "presentation_date": "Presentation Date",
+            "actions": "Actions"
+        }
+    },
+    "projects": {
+        "globalsearch": "Search: Name",
+        "form_fields": {
+            "project_name": "Project Name",
+            "project_prefix": "Project Prefix",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "team_lead": "Team Lead",
+            "status": "Status",
+            "team_members": "Team Members",
+            "client_name": "Client Name",
+            "client_phone": "CLient Phone Number",
+            "client_address": "Client Address",
+            "desc": "Description",
+            "ph_team_lead": "Search Team Lead"
+        },
+        "table_fields": {
+            "s_no": "S.No.",
+            "name": "Name",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "team_size": "Team Size",
+            "team_lead": "Team Lead",
+            "created_by": "Created By",
+            "status": "Status",
+            "actions": "Actions",
+            "ph_search": "Search"
+        }
+    },
+    "project_details": {
+        "title": "Project Details",
+        "add_comments": "Add Comments",
+        "labels": {
+            "team_members": "Team Members",
+            "desc": "Description",
+            "name": "Name",
+            "start_date": "Start Date",
+            "team_size": "Team Size",
+            "team_lead": "Team Lead",
+            "end_date": "End Date"
+        },
+        "nav_tabs": {
+            "history": "History",
+            "attachments": "Attachments",
+            "comments": "Comments"
+        },
+        "choose_file": "Choose File"
+    },
+    "public_holidays": {
+        "globalsearch": "Search: Description",
+        "form_fields": {
+            "date": "Date",
+            "desc": "Description"
+        },
+        "table_fields": {
+            "s_no": "S.No.",
+            "date": "Date",
+            "day": "Day",
+            "desc": "Description",
+            "actions": "Actions",
+            "ph_search": "Search"
+        }
+    },
+    "roles": {
+        "globalsearch": "Search: Role",
+        "table_fields": {
+            "s_no": "S.No.",
+            "created": "Created On",
+            "role": "Role",
+            "created_by": "Created By",
+            "updated_by": "Updated By",
+            "updated_date": "Updated On",
+            "actions": "Actions",
+            "ph_search": "Search"
+        }
+    },
+    "settings": {
+        "title": "Configure Settings",
+        "button": {
+            "reload": "Re-load",
+            "update": "Update"
+        },
+        "label": {
+            "admin_mail": "Admin Email",
+            "cf_leaves": "Carry Forward Leaves",
+            "enable_mails": "Enable Emails",
+            "sendgrid_mail": "Send Grid Email",
+            "leave_credit": "Monthly Leave Credit",
+            "yes": "Yes",
+            "no": "No",
+            "page_settings": "Page Settings",
+            "issue_status": "Issue Status Array",
+            "category": "Category",
+            "status_options": "Status Options",
+            "add": "Add",
+            "edit": "Edit",
+            "delete": "Delete",
+            "update": "Update",
+            "cancel": "Cancel",
+            "delete_conf": "Are you sure, you want to delete ?",
+            "status_value": "Issue Status"
+        },
+        "apraisal": {
+            "title": "Initiate Appraisal",
+            "cycle_name": "Cycle Name",
+            "from_date": "From Date",
+            "to_date": "To Date",
+            "initiate": "Initiate",
+            "status": "Status",
+            "action": "Action",
+            "change_status": "Change Status",
+            "save_conf": "Are you sure, you want to save ?",
+            "save": "Save",
+            "cancel": "Cancel"
+        }
+    },
+    "screens": {
+        "globalsearch": "Search Title",
+        "form_fields": {
+            "icon": "Icon",
+            "display_title": "Display Title",
+            "title": "Title",
+            "route": "Route"
+        },
+        "table_fields": {
+            "icon": "Icon",
+            "display_title": "Display Title",
+            "actions": "Actions",
+            "route": "Route",
+            "s_no": "S.No."
+        }
+    },
+    "tasks": {
+        "globalsearch": "Search : Name/Project",
+        "table_fields": {
+            "s_no": "S.No.",
+            "name": "Name",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "project": "Project",
+            "assigned_to": "Assigned To",
+            "created_by": "Created By",
+            "priority": "Priority",
+            "status": "Status",
+            "actions": "Actions",
+            "ph_search": "Search",
+            "labels": {
+                "active": "Active",
+                "pending": "Pending",
+                "inactive": "Inactive",
+                "completed": "Completed",
+                "all": "All",
+                "blocker": "Blocker",
+                "minor": "Minor",
+                "major": "Major",
+                "critical": "Critical"
+            }
+        },
+        "form_fields": {
+            "project": "Project",
+            "name": "Name",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "est_hrs": "Estimated Hours",
+            "worked_hrs": "Worked Hours",
+            "priority": "Priority",
+            "status": "Status",
+            "assigned_to": "Assigned To",
+            "desc": "Description",
+            "ph_project": "Search Project",
+            "ph_assigned_to": "Search Employees",
+            "task_name": "Task Name",
+            "labels": {
+                "active": "Active",
+                "pending": "Pending",
+                "inactive": "Inactive",
+                "completed": "Completed",
+                "blocker": "Blocker",
+                "minor": "Minor",
+                "major": "Major",
+                "critical": "Critical"
+            }
+        }
+    },
+    "task_details": {
+        "title": "Task Details",
+        "add_comments": "Add Comments",
+        "labels": {
+            "project": "Project",
+            "desc": "Description",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "task": "Task",
+            "assigned_to": "Assigned To",
+            "priority": "Priority",
+            "status": "Status",
+            "created_by": "Created By"
+        },
+        "nav_tabs": {
+            "history": "History",
+            "attachments": "Attachments",
+            "comments": "Comments"
+        },
+        "choose_file": "Choose File"
+    },
+    "templates": {
+        "table": {
+            "globalsearch": "Search: Name"
+        },
+        "form_fields": {
+            "name": "Name",
+            "subject": "Subject",
+            "desc": "Description"
+        },
+        "table_fields": {
+            "ph_search": "Search",
+            "s_no": "S.No.",
+            "name": "Name",
+            "subject": "Subject",
+            "updated": "Updated",
+            "created": "Created",
+            "actions": "Actions"
+        }
+    },
+    "timesheet": {
+        "globalsearch": "Search: Project",
+        "form_fields": {
+            "date": "Date",
+            "project_type": "Project Type",
+            "project": "Project",
+            "task": "Task",
+            "work_type": "Work Type",
+            "hours": "Hours",
+            "desc": "Description",
+            "regular": "Regular",
+            "client_loc": "Client Location",
+            "wfh": "Work Form Home"
+        },
+        "table_fields": {
+            "ph_search": "Search",
+            "s_no": "S.No.",
+            "employee": "Employee",
+            "date": "Date",
+            "project": "Project",
+            "task": "Task",
+            "other_task": "Other Task",
+            "work_type": "Work Type",
+            "desc": "Description",
+            "actions": "Actions"
+        }
+    },
+    "employeeIdMapping": {
+        "form_fields": {
+            "emp_name": "Employee Name",
+            "emp_id": "Employee Id",
+            "biometric_id": "Biometric Id"
+        },
+        "table_fields": {
+            "s_no": "S.No.",
+            "name": "Employee Name",
+            "emp_id": "Employee Id",
+            "biometric_id": "Biometric Id",
+            "ph_search": "Search"
+        }
+    }
+}

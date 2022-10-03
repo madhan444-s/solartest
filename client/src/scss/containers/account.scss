@@ -1,0 +1,945 @@
+.account {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  overflow-y: auto;
+  
+  @include themify($themes) {
+    background-color: $color-template;
+  }
+}
+
+.account__wrapper {
+  margin: auto;
+  padding: 23px;
+  border: 1px solid $color-accent;
+  border-radius: 10px;
+}
+.account__wrapper1 {
+  margin: auto;
+  padding: 10px;
+ 
+  justify-content: center;
+}
+.textcenter{
+  text-align: center;
+}
+.account__card {
+  @include themify($themes) {
+    background-color: themed('colorBackground');
+  }
+  background-color: #ffffff;
+  padding: 30px;
+  // max-width: 580px;
+  // padding-bottom:0px;
+  // padding-top:5px;
+  width: 100%;
+  // margin-left: 10%;
+  border-radius: 10px;
+}
+.account__input {
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.register__btns{
+  padding-bottom: 2%;
+}
+.account__profile {
+  text-align: center;
+}
+
+.account__btns {
+  display: flex;
+  justify-content:center;
+  
+ 
+
+  a {
+    margin: 10px 0 20px 10px;
+    white-space: nowrap;
+  }
+}
+
+.account__btn {
+  width: 100%;
+  margin-right: 0;
+}
+
+
+.account__avatar {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.account__name {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 5px;
+}
+
+.account__sub {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $color-additional;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+
+
+.account__forgot-password {
+  position: absolute;
+  font-size: 11px;
+  line-height: 15px;
+  bottom: 9px;
+  right: 0;
+  z-index:10;
+
+  a {
+    color: $color-template;
+
+    &:hover {
+      color: $color-template-hover;
+      text-decoration: none;
+    }
+  }
+}
+
+.form__form-group--forgot {
+  margin-bottom: 40px;
+}
+.card__styles{
+  text-align: center;
+  padding-top:0px;
+
+}
+.card__styles2{
+  text-align: center;
+  padding-top:0px;
+  padding-top: 16px;
+
+}
+
+.account__email_icon{
+  height: 60%;
+  position: absolute;
+  margin-left: 95%;
+  color:lightgrey;
+}
+.account1__email_icon{
+  height: 50%;
+  position: absolute;
+  margin-left: 94%;
+  color:lightgrey;
+}
+.register__email_icon{
+  height: 60%;
+  position: absolute;
+  margin-left: 89%;
+}
+.account__or {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  position: relative;
+
+  &:before, &:after {
+    content: "";
+    height: 1px;
+    width: calc(50% - 90px);
+    background: #dddddd;
+    position: absolute;
+    top: 10px;
+  }
+
+  &:before {
+    left: 0;
+  }
+
+  &:after {
+    right: 0;
+  }
+}
+
+.account__social {
+  text-align: center;
+}
+.forgotPasswordLoginLink{
+ 
+  // background: orange;
+   border-radius: 30px;
+ 
+  &:hover {
+    border-radius: 30px;
+ 
+}
+  
+}
+.account__lock_icon{
+ 
+  height:50%;
+  position: absolute;
+  margin-left: 93%;
+}
+
+.account__lock_icon1{
+  height:59%;
+  position: absolute;
+  margin-left: 89%;
+}
+.account__lock_icon2{
+  height:58%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.account__social-btn {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  border-radius: 5px;
+  padding: 9px;
+  margin-right: 10px;
+  transition: all 0.3s;
+  border: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  svg {
+    fill: #ffffff;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.account__social-btn--facebook {
+    background: #4766a4;
+
+    &:hover {
+      background: darken(#c74d4d, 10%);
+    }
+  }
+
+  &.account__social-btn--google {
+    background:#4766a4;
+
+    &:hover {
+      background: darken(#c74d4d, 10%);
+    }
+  }
+}
+
+
+
+.account__logo-accent {
+  color: $color-template;
+}
+.account__logo{
+  color: $color-template;
+  font-size: 30px;
+  font-family: cursive;
+}
+.topbarLogo{
+  color: $color-template;
+  font-size: 46px;
+  font-family: cursive;
+  line-height: 46px;
+  align-items: center;
+  display: flex;
+}
+.topbarProjectLogo{
+  width:unset !important ;
+  height:45px;
+  object-fit: contain;
+  border-radius: 2px;
+  margin-top: 0px !important;
+}
+@media screen and (max-width: 1024px){
+.topbarLogo {
+    font-size: 16px;
+}
+}
+// .topbarLogo:hover {
+//   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+//   background-color:$color-template;
+//   color: $color-template-light;
+// }
+.login_button{
+  background-color:#ea901f;
+  width:40%;
+  &:hover {
+    background: darken(#c74d4d, 10%);
+  }
+}
+.account__have-account {
+  text-align: center;
+  // padding-bottom: 20px;
+
+  a {
+    color: $color-template;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-template-hover;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .account__card {
+    padding: 7px 30px;
+    
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .account__lock_icon2 {
+    margin-left: 86%; 
+  }
+  
+}
+@media screen and (max-width: 760px) {
+
+  .account__lock_icon2 {
+   height:64%
+  }
+  
+}
+@media screen and (max-width: 425px) {
+  .account__btns {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .signup {
+    font-size:7px;
+    margin-top:4px;
+  }
+}
+.form__form-group-label{
+  // color: #8f8f8f;
+// font-family: "RM Neue TRIAL";
+// font-size: 125%;
+// font-weight: 400;
+line-height: 100%;
+}
+.account1 .form input, .account1 .form textarea {
+  width: 100%;
+  // padding: 5px 10px;
+  font-size: 100%;
+  height: 32px;
+  transition: border 0.3s;
+  background: transparent;
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 0;
+  border: 1px solid #babacc;
+  border-radius: 8px;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  // height: 40px;
+  line-height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+.account_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: auto; */
+    height: 100vh
+}
+.account1 .btn {
+  margin-bottom: 1px !important;
+}
+
+.register__email_icon svg{
+  height: 83%;
+   color:lightgrey;
+  
+}
+.account__lock_icon1 svg{
+  height: 63%;
+  color:lightgrey;
+}
+.account__lock_icon2 svg{
+  height: 18%;
+  color:lightgrey;
+}
+.account__lock_icon svg{
+  height: 116%;
+  color:lightgrey;
+  
+}
+
+body{
+  line-height: 1.6 !important;
+}
+//registerform
+.create-account__btn2{
+  width: 45%;
+    border: none;
+    @media only screen and (max-width: 1000px) {
+        width: 60%;
+    }
+}
+
+.account__btns a {
+  margin: 0px 0 46px 0px;
+  white-space: nowrap;
+  color:darkgrey;
+  font-size: 15px;
+}
+.registerlabelsize{
+  font-size: 100%;
+}
+
+.register__btns2{
+ font-size: 15px;
+ font-weight: 400px;
+ color:gray
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
+}
+.form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
+}
+
+.account11 button{
+  // background-color: transparent !important;
+}
+.account1 button{
+  // background-color: transparent !important;
+}
+.login_Logo{
+  height: 30%;
+  width: 62% ;
+  border-radius: 10px;
+}
+.account__head{
+  justify-content: center;
+  text-align: center;
+}
+.width_90{
+  width: 90%;
+}
+.img_htwt{
+  width: 320px;
+  height: 215px;
+  object-fit: contain;
+}
+@media screen and (max-width:768px){
+  .img_htwt{
+  width: 90%;
+  height: auto;
+}
+}
+.logo{
+  color:$color-template;
+  font-size: 46px;
+  font-family: cursive;
+  font-weight: 700;
+}
+.justifyContentLogin{
+  justify-content: center;
+  align-items: center;
+}
+
+.account_login {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  overflow-y: auto;
+  @include themify($themes) {
+    background-color: $color-template;
+  }
+}
+
+.account__wrapper_login {
+  margin: auto;
+  padding: 23px;
+  border: 1px solid $color-template;
+  border-radius: 10px;
+}
+.account__wrapper1_login {
+  margin: auto;
+  padding: 10px;
+ 
+  justify-content: center;
+}
+.textcenter{
+  text-align: center;
+}
+.account__card_login {
+  @include themify($themes) {
+    background-color: themed('colorBackground');
+  }
+  background-color: #ffffff;
+  padding: 30px;
+  // max-width: 580px;
+  // padding-bottom:0px;
+  // padding-top:5px;
+  width: 100%;
+  // margin-left: 10%;
+  border-radius: 10px;
+}
+.account__input {
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.register__btns{
+  padding-bottom: 2%;
+}
+.account__profile {
+  text-align: center;
+}
+
+.account__btns {
+  display: flex;
+  justify-content:center;
+  
+ 
+
+  a {
+    margin: 10px 0 20px 10px;
+    white-space: nowrap;
+  }
+}
+
+.account__btn {
+  width: 100%;
+  margin-right: 0;
+}
+
+
+.account__avatar {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.account__name {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 5px;
+}
+
+.account__sub {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $color-additional;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+
+
+.account__forgot-password {
+  position: absolute;
+  font-size: 11px;
+  line-height: 15px;
+  bottom: 9px;
+  right: 0;
+  z-index:10;
+
+  a {
+    color: $color-template;
+
+    &:hover {
+      color: $color-template-hover;
+      text-decoration: none;
+    }
+  }
+}
+
+.form__form-group--forgot {
+  margin-bottom: 40px;
+}
+.card__styles{
+  text-align: center;
+  padding-top:0px;
+
+}
+.card__styles2{
+  text-align: center;
+  padding-top:0px;
+  padding-top: 16px;
+
+}
+
+.account__email_icon{
+  height: 60%;
+  position: absolute;
+  margin-left: 95%;
+  color:lightgrey;
+}
+.account1__email_icon{
+  height: 50%;
+  position: absolute;
+  margin-left: 94%;
+  color:lightgrey;
+}
+.register__email_icon{
+  height: 60%;
+  position: absolute;
+  margin-left: 89%;
+}
+.account__or {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  position: relative;
+
+  &:before, &:after {
+    content: "";
+    height: 1px;
+    width: calc(50% - 90px);
+    background: #dddddd;
+    position: absolute;
+    top: 10px;
+  }
+
+  &:before {
+    left: 0;
+  }
+
+  &:after {
+    right: 0;
+  }
+}
+
+.account__social {
+  text-align: center;
+}
+.forgotPasswordLoginLink{
+ 
+  // background: orange;
+   border-radius: 30px;
+ 
+  &:hover {
+    border-radius: 30px;
+ 
+}
+  
+}
+.account__lock_icon{
+ 
+  height:50%;
+  position: absolute;
+  margin-left: 93%;
+}
+
+.account__lock_icon1{
+  height:59%;
+  position: absolute;
+  margin-left: 89%;
+}
+.account__lock_icon2{
+  height:58%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.account__social-btn {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  border-radius: 5px;
+  padding: 9px;
+  margin-right: 10px;
+  transition: all 0.3s;
+  border: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  svg {
+    fill: #ffffff;
+    height: 20px;
+    width: 20px;
+  }
+
+  &.account__social-btn--facebook {
+    background: #4766a4;
+
+    &:hover {
+      background: darken(#c74d4d, 10%);
+    }
+  }
+
+  &.account__social-btn--google {
+    background:#4766a4;
+
+    &:hover {
+      background: darken(#c74d4d, 10%);
+    }
+  }
+}
+
+
+
+.account__logo-accent {
+  color: $color-template;
+}
+.account__logo{
+  color: $color-template;
+  font-size: 30px;
+  font-family: cursive;
+}
+.topbarLogo{
+  color: #3c6177;
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 40px;
+  align-items: center;
+  display: flex;
+  &:hover,
+    &:active {
+      color: #3c6177 !important;
+    }
+}
+@media screen and (max-width: 1024px){
+.topbarLogo {
+    font-size: 16px;
+}
+}
+.topbar_button{
+  color: $color-template;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 40px;
+  align-items: center;
+  display: flex;
+}
+@media screen and (max-width: 1024px){
+.topbar_button {
+    font-size: 14px;
+}
+}
+// .topbarLogo:hover {
+//   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+//   background-color:$color-template;
+//   color: $color-template-light;
+// }
+.login_button{
+  background-color:#ea901f;
+  width:40%;
+  &:hover {
+    background: darken(#c74d4d, 10%);
+  }
+}
+.account__have-account {
+  text-align: center;
+  // padding-bottom: 20px;
+
+  a {
+    color: $color-template;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-template-hover;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .account__card {
+    padding: 7px 30px;
+    
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .account__lock_icon2 {
+    margin-left: 86%; 
+  }
+  
+}
+@media screen and (max-width: 760px) {
+
+  .account__lock_icon2 {
+   height:64%
+  }
+  
+}
+@media screen and (max-width: 425px) {
+  .account__btns {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .signup {
+    font-size:7px;
+    margin-top:4px;
+  }
+}
+.form__form-group-label{
+  // color: #8f8f8f;
+// font-family: "RM Neue TRIAL";
+// font-size: 125%;
+// font-weight: 400;
+line-height: 100%;
+}
+.account1 .form input, .account1 .form textarea {
+  width: 100%;
+  // padding: 5px 10px;
+  font-size: 100%;
+  height: 32px;
+  transition: border 0.3s;
+  background: transparent;
+  box-sizing: content-box;
+  background-color: transparent;
+  border: 0;
+  border: 1px solid #babacc;
+  border-radius: 8px;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  // height: 40px;
+  line-height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+.account_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: auto; */
+    height: 100vh
+}
+.account1 .btn {
+  margin-bottom: 1px !important;
+}
+
+.register__email_icon svg{
+  height: 83%;
+   color:lightgrey;
+  
+}
+.account__lock_icon1 svg{
+  height: 63%;
+  color:lightgrey;
+}
+.account__lock_icon2 svg{
+  height: 18%;
+  color:lightgrey;
+}
+.account__lock_icon svg{
+  height: 116%;
+  color:lightgrey;
+  
+}
+
+body{
+  line-height: 1.6 !important;
+}
+//registerform
+.create-account__btn2{
+  width: 45%;
+    border: none;
+    @media only screen and (max-width: 1000px) {
+        width: 60%;
+    }
+}
+
+.account__btns a {
+  margin: 0px 0 46px 0px;
+  white-space: nowrap;
+  color:darkgrey;
+  font-size: 15px;
+}
+.registerlabelsize{
+  font-size: 100%;
+}
+
+.register__btns2{
+ font-size: 15px;
+ font-weight: 400px;
+ color:gray
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
+}
+.form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
+}
+
+.account11 button{
+  // background-color: transparent !important;
+}
+.account1 button{
+  // background-color: transparent !important;
+}
+.login_Logo{
+  height: 30%;
+  width: 62% ;
+  border-radius: 10px;
+}
+.account__head{
+  justify-content: center;
+  text-align: center;
+}
+.width_90{
+  width: 90%;
+}
+// .img_htwt{
+//   width: 320px;
+//   height: 215px;
+// }
+@media screen and (max-width:768px){
+  .img_htwt{
+  width: 90%;
+  height: auto;
+}
+}
+.logo{
+  color:$color-template;
+  font-size: 46px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 650;
+}
+.justifyContentLogin{
+  justify-content: center;
+  align-items: center;
+}

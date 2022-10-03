@@ -1,0 +1,28 @@
+{
+    "dashboard": {
+        "page_title": "Dashboard 1",
+        "projects": "Projects 1",
+        "tasks": "Tasks 1",
+        "leave_balance": "Leave Balance 1",
+        "employees": "Employees 1",
+        "notification": "Notification 1",
+        "visits": "visites 1",
+        "total_page_views": "Nombre total de pages vues",
+        "new_users": "Nouveaux utilisateurs",
+        "bounce_rate": "taux de rebond",
+        "ab_testing": "analyse de test A / B",
+        "visitors_sessions": "Sessions visiteurs",
+        "sales_statistic": "statistiques de vente",
+        "budget_statistic": "statistique du budget",
+        "audience_by_country": "Audience par pays",
+        "best_selling": "régions les plus vendues",
+        "goals_completion": "Objectif atteint"
+    },
+    "dashboard_crypto": {
+        "page_title": "Dashboard Crypto",
+        "trade_history": "histoire du commerce",
+        "cryptotrends_today": "Cryptotrends today",
+        "place_order": "passer la commande",
+        "top_cryptocurrencies": "Top 10 des cryptomonnaies"
+    }
+}

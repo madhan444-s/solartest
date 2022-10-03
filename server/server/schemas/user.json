@@ -1,0 +1,9 @@
+{
+  "name": "String",
+  "created": "Date",
+  "updated": "Date",
+  "email": "String",
+  "password": "String",
+  "status": "String",
+  "companyId": "String"
+}
