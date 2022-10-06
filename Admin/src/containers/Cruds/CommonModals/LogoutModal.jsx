@@ -19,6 +19,7 @@ export default class LogoutModal extends React.Component {
             .then(async (response) => {
                 if (response && response.respCode && response.respCode == 200) {
                     console.log("logged out successfully.")
+                    localStorage.clear()
                 } else if (response && response.errorMessage) {
                     showToasterMessage(response.errorMessage, 'error');
                 }

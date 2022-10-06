@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import DownIcon from 'mdi-react/ChevronDownIcon';
 import { Collapse } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import TopbarMenuLink from './TopbarMenuLink';
 import config from '../../../config/config';
 import configImages from '../../../config/configImages';
@@ -63,16 +64,42 @@ export default class TopbarProfile extends PureComponent {
 
             <div className="topbar__menu-divider" />
             <div className="topbar__menu">
-              <TopbarMenuLink title="My Profile" icon="user" path="/profile" toggleClose={this.toggle}
+              {/* <TopbarMenuLink title="My Profile" icon="user" path="/profile" toggleClose={this.toggle}
                 updateTopbarProfileData={this.updateTopbarProfileData}
-              />
-              {/* <TopbarMenuLink title="Account Settings" icon="cog" path="/settings" toggleClose={this.toggle} /> */}
-              <TopbarMenuLink title="Change Password" icon="bubble" path="/changePassword" toggleClose={this.toggle}
+              /> */}
+              {/*~ <TopbarMenuLink title="Account Settings" icon="cog" path="/settings" toggleClose={this.toggle} /> */}
+              {/* <TopbarMenuLink title="Change Password" icon="bubble" path="/changePassword" toggleClose={this.toggle}
                 updateTopbarProfileData={this.updateTopbarProfileData}
-              />
-              <TopbarMenuLink title="Settings" icon="cog" path="/adminSettings" toggleClose={this.toggle}
+              /> */}
+              <div>
+                <Link className="topbar__link"
+                  to={{ pathname: `/profile`, state: { updateTopbarProfileData: this.props.updateTopbarProfileData } }}
+                  onClick={this.toggleClose}>
+                  <span className={`topbar__link-icon lnr lnr-user`} />
+                  <p className="topbar__link-title">{"My Profile"}</p>
+                </Link>
+              </div>
+
+              <div>
+                <Link className="topbar__link"
+                  to={{ pathname: `/changePassword`, state: { updateTopbarProfileData: this.props.updateTopbarProfileData } }}
+                  onClick={this.toggleClose}>
+                  <span className={`topbar__link-icon lnr lnr-bubble`} />
+                  <p className="topbar__link-title">{"Change Password"}</p>
+                </Link>
+              </div>
+
+              <div>
+                <Link className="topbar__link"
+                  to={{ pathname: `/adminSettings`, state: { updateTopbarProfileData: this.props.updateTopbarProfileData } }}
+                  onClick={this.toggleClose}>
+                  <span className={`topbar__link-icon lnr lnr-cog`} />
+                  <p className="topbar__link-title">{"Settings"}</p>
+                </Link>
+              </div>
+              {/* <TopbarMenuLink title="Settings" icon="cog" path="/adminSettings" toggleClose={this.toggle}
                 updateTopbarProfileData={this.updateTopbarProfileData}
-              />
+              /> */}
               <div className="topbar__menu-divider" />
               <TopbarMenuLink title="Log Out" icon="exit" path="/log_in" toggleClose={this.toggle}
                 updateTopbarProfileData={this.updateTopbarProfileData}

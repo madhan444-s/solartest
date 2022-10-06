@@ -90,6 +90,7 @@ class LogInForm extends PureComponent {
 
                   // save user credentials in storage
                   localStorage.setItem('loginCredentials', JSON.stringify(userDetails));
+                  localStorage.removeItem('sessionexpired');
                 }
                 if (userDetails && userDetails.rolePermissions) {
                   let permissions = userDetails.rolePermissions;
@@ -228,6 +229,7 @@ class LogInForm extends PureComponent {
                 // this.getSettingsData(userDetails)
                 // save user credentials in storage
                 localStorage.setItem('loginCredentials', JSON.stringify(userDetails));
+                localStorage.removeItem('sessionexpired');
                 if (userDetails && userDetails.role && userDetails.role == 'Teacher') {
                   this.setState({
                     loginRole: userDetails.role

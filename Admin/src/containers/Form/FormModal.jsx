@@ -143,11 +143,11 @@ class FormModal extends React.Component {
     })
     this.getFormFields();
     this.getActivities();
-    if (this.props.addSelectedRecord) {
+    if(this.props.addSelectedRecord){
       setTimeout(() => {
-        this.getFormFields();
-      }, 1000);
-    }
+       this.getFormFields();
+      }, 800); 
+     }
   }
 
   componentWillUnmount() {
@@ -1140,18 +1140,18 @@ class FormModal extends React.Component {
       <div className='d-flex'>
         <div className='col-12 px-0'>
           <span className='float-right'>
-            <a href={`/edit_${this.props.routeTo}/${JSON.stringify(this.state.userData._id)}`} >
-              <ButtonToolbar>
-                <Button color='primary' outline type="submit"
-                // onClick={() =>   
+          <a href={`/edit_${this.props.routeTo}/${JSON.stringify(this.state.userData._id)}`} >
+            <ButtonToolbar>
+              <Button color='primary' outline type="submit" 
+              // onClick={() =>   
                 // this.getRowData(this.state.userData, 'edit')
-                // }
-                >
-                  {
-                    t('Edit') ? t('Edit') : 'Edit'
-                  }
-                </Button>
-              </ButtonToolbar>
+              // }
+              >
+                {
+                  t('Edit') ? t('Edit') : 'Edit'
+                }
+              </Button>
+            </ButtonToolbar>
             </a>
           </span>
         </div>

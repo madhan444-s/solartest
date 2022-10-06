@@ -53,7 +53,11 @@ const setTokenVariables = async (req) => {
     token.loginType = req.entityType;
   };
   token.email = req.details.email;
-  token.expires = new Date().getTime() + settings.expireTokenTime;
+  if (req.entityType == 'employee') {
+    token.expires = new Date().getTime() + settings.adminExpireTokenTime;
+  } else {
+    token.expires = new Date().getTime() + settings.expireTokenTime;
+  }
 
   if (req.body && req.body.type) {
     token.loginFrom = req.body.type;

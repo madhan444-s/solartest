@@ -88,7 +88,7 @@ async function isAllowed(req, res, next) {
     //gets the token details based on the access token
     let tokenData = await tokenService.getTokenDetails(req, token);
     // let tokenData = req.tokenData
-    if (tokenData._doc) {
+    if (tokenData && tokenData._doc) {
       tokenData = tokenData._doc;
     }
     if (tokenData && tokenData.accessToken) {
